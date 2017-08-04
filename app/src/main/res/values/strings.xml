@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="title">Tic Tac Toe</string>
+    <string name="single">Single Player</string>
+    <string name="multisamedevice">Multi Player\nSame Device</string>
+    <string name="multinetwork">Multi Player\n2 Devices</string>
+</resources>

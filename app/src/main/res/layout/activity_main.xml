@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ocean"
+    android:scaleType="centerCrop"
+
+    tools:context="com.ashish.kumar.game.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="12dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="40sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="88dp"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="14dp"
+            android:text="@string/single"
+            android:textSize="30sp"
+            android:background="@drawable/button2"
+            android:onClick="single"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="14dp"
+            android:textSize="30sp"
+            android:text="@string/multisamedevice"
+            android:onClick="multi1"
+            android:background="@drawable/button2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="14dp"
+            android:textSize="30sp"
+            android:text="@string/multinetwork"
+            android:background="@drawable/button2"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
